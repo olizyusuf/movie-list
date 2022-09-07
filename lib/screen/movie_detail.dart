@@ -23,15 +23,6 @@ class MovieDetail extends StatelessWidget {
           width: MediaQuery.of(context).size.width,
           child: Column(
             children: [
-              // Container(
-              //   height: 240,
-              //   decoration: BoxDecoration(
-              //       image: DecorationImage(
-              //           image: NetworkImage(
-              //               'https://image.tmdb.org/t/p/w500${data['backdrop_path']}'),
-              //           fit: BoxFit.cover),
-              //       borderRadius: BorderRadius.circular(5.0)),
-              // ),
               Stack(
                 alignment: AlignmentDirectional.topCenter,
                 children: [
